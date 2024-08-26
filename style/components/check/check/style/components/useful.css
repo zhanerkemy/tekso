@@ -1,0 +1,111 @@
+.useful{
+    display: flex;
+    background-color: #222;
+    padding: 48px;
+}
+
+.useful-item{
+    width: 33.33%;
+    padding: 0 12px;
+    position: relative;
+}
+
+.useful-item h1{
+    font-size: 40px;
+    color: #30ba15;
+    margin-bottom: 30px;
+}
+
+.useful-item p{
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #7e7e7e;
+    line-height: 28px;
+}
+
+.useful-item span{
+    color: white;
+    font-family: "Poppins-SemiBold";
+    display: block;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.social-logo img{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 41px;
+    margin-right: 15px;
+}
+
+.useful-item h2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.useful-item h2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #30ba15;
+    bottom: -15px;
+}
+
+.useful-item ul li a{
+    color: #878787;
+}
+
+.useful-item ul li{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-bottom: 12px;
+}
+
+.useful-item input{
+    width: 100%;
+    padding: 14px 28px;
+    background-color: #2E2E2E;
+    border: 1px solid #2E2E2E;
+    color: white;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.useful-item button i{
+    font-size: 16px;
+    color: white;
+}
+
+.useful-item button{
+    position: absolute;
+    right: 0;
+    top: 41%;
+    background: #30ba15;
+    padding: 16px 20px;
+    border: 1px solid #30ba15;
+    border-radius: 50%;
+}
+
+
+@media(max-width:900px){
+    .useful{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .useful-item{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .useful-item button{
+        top: 65%;}
+}

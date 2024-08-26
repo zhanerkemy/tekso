@@ -1,0 +1,86 @@
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 60px;
+    background: linear-gradient(rgb(7 7 7 / 60%), rgb(0 0 0 / 60%)), url(../../img/back2.jpg) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.contact-us h3{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact-us p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact-us a{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 48px;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: 10px;
+    transition: .4s;
+}
+
+.contact-us a:hover{
+    background-color: #30ba15;
+    border: 2px solid #30ba15;
+}
+
+@media(max-width:570px){
+    .contact-us h3{
+        font-size: 26px;
+    }
+
+    .contact-us a{
+        font-size: 14px;
+        padding: 10px 44px;
+    }
+    
+    .contact-us p{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:500px){
+    .contact-us h3{
+        font-size: 22px;
+    }
+
+    .contact-us a{
+        font-size: 10px;
+        padding: 8px 40px;
+    }
+    
+    .contact-us p{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:400px){
+    .contact-us h3{
+        font-size: 20px;
+    }
+
+    .contact-us a{
+        font-size: 8px;
+        padding: 8px 36px;
+    }
+    
+    .contact-us p{
+        font-size: 8px;
+    }
+}

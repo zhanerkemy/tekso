@@ -1,0 +1,13 @@
+body{
+    background-color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}

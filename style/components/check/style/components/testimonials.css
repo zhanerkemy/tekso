@@ -1,0 +1,166 @@
+.testimonials{
+    padding: 0 5%;
+}
+
+.test-top{
+    text-align: center;
+    padding: 90px 0;
+}
+
+.test-top h2{
+    color: #222222;
+    font-size: 32px;
+    font-family: "Poppins-SemiBold";
+    margin-bottom: 20px;
+}
+
+.test-top p{
+    font-size: 16px;
+    column-rule: #6f6f6f;
+}
+
+.test-bottom{
+    box-shadow: 0 0 2px 0 rgb(255 39 7 / 28%);
+    box-sizing: content-box;
+    padding: 95px 40px;
+    margin: 30px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.test-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.test-right{
+    display: flex;
+    min-width: 276px;
+}
+
+.test-img img{
+    width: 90px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url(../../fonts/Poppins-SemiBold.ttf);
+}
+
+.test-info h3{
+    font-size: 18px;
+    font-family: "Poppins-SemiBold";
+    margin: 15px 0 10px 0;
+}
+
+.test-info h4{
+    font-size: 14px;
+    color: #999;
+}
+
+.test-stars{
+    margin: 15px 0;
+    color: #f7c633;
+}
+
+.test-stars i{
+    margin: 0 1px;
+    width: 16px;
+    height: 16px;
+}
+
+@font-face {
+    font-family: "Poppins-italic";
+    src: url(../../fonts/Poppins-LightItalic.ttf);
+}
+
+.test-left p{
+    margin: 15px auto 15px auto;
+    font-family: "Poppins-italic";
+    color: #222222;
+}
+
+.test-left{
+    position: relative;
+}
+
+.test-left .fa-quote-left{
+    color: #30ba15;
+    position: absolute;
+    left: 0;
+    bottom: 35px;
+}
+
+.test-left span{
+    width: 5px;
+    color: transparent;
+}
+
+.test-left .fa-quote-right{
+    color: #30ba15;
+    position: absolute;
+   bottom: 10px;
+   right: 250px;
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.2);
+    opacity: .2;
+}
+
+.dots img{
+    margin: 0 4px;
+    width: 12px;
+    height: 12px;
+}
+
+@media(max-width:1355px){
+    .test-left .fa-quote-left{
+        position: absolute;
+        left: 0;
+        bottom: 50px;
+    }
+    
+    .test-left .fa-quote-right{
+        position: absolute;
+        bottom: 10px;
+        right: 255px;
+    }
+}
+
+@media(max-width:1350px){
+    
+    .test-left .fa-quote-left{
+        display: none;
+    }
+    
+    .test-left .fa-quote-right{
+        display: none;
+    }
+}
+
+@media(max-width:660px){
+    .test-bottom{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:370px){
+    .test-img img{
+        display: none;
+    }
+
+    .test-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

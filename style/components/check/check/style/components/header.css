@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../../fonts/Poppins-Light.ttf)
+}
+
+.header{
+    margin: 10px 0;
+    padding: 0 8%;
+    width: 100%;
+    font-family: "Poppins";
+}
+
+.header a{
+    color: #30ba15;
+    font-size: 14px;
+    transition: .4s;
+}
+
+.header i{
+    color: #30ba15;
+    margin-left: 10px;
+    transition: .4s;
+}
+
+.header span{
+    color: #30ba15;
+    font-size: 14px;
+}
+
+.fa-mobile-screen{
+    margin-left: 40px;
+}
+
+.fa-envelope{
+    margin: 0 20px;
+}
+
+.first-link:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-facebook:hover{
+    color: #222222;
+}
+
+.cellphone{
+    transition: .4s;
+}
+
+.cellphone:hover{
+    border-bottom: 1px solid #30ba15;
+}
+
+
+
+@media(max-width:630px){
+    .header{
+        display: none;
+    }
+}

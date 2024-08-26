@@ -1,0 +1,149 @@
+.menu{
+    padding: 0 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #ebebeb;
+}
+
+.menu-left{
+    display: flex;
+    margin: 0 12px;
+    
+}
+
+.menu-left h1{
+    color: #30ba15;
+    font-size: 30px;
+}
+
+.menu-left:hover{
+    cursor: pointer;
+}
+
+.menu-left span{
+    color: #3d3d3d;
+    font-size: 30px;
+}
+
+.menu-right{
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu-right a:not(:first-child), .menu-right a:not(:nth-child(7)) {
+    margin-left: 30px;
+    font-size: 16px;
+    color: #30ba15;
+}
+
+.menu-right a:first-child{
+    margin-left: 30px;
+    font-size: 16px;
+    color: #1f1f1f;
+    position: relative;
+}
+
+
+
+.menu-right a{
+    position: relative;
+    transition: .6s;
+}
+
+.menu-right a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    background-color: #1f1f1f;
+    height: 1px;
+    bottom: -5;
+    left: 0;
+    transition: .6s;
+}
+
+.menu-right a:first-child::after{
+    width: 100%;
+}
+
+.menu-right a:hover::after{
+    width: 100%;
+}
+
+.menu-right a:hover{
+    color: #1f1f1f;
+}
+
+.menu-right i{
+    transition: .6s;
+    color: #30ba15;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.menu-right i:hover{
+    color: #1f1f1f;
+}
+
+@media(max-width:1000px){
+    .menu-left h1, .menu-left span{
+        font-size: 26px;
+    }
+
+    .menu-right a{
+
+        font-size: 8px;
+    }
+}
+
+@media(max-width:950px){
+    .menu-right a:nth-child(10){
+        display: none;
+    }
+}
+
+@media(max-width:850px){
+    .menu-right a:nth-child(9){
+        display: none;
+    }
+}
+
+@media(max-width:750px){
+    .menu-right a:nth-child(8){
+        display: none;
+    }
+    .menu-right a:nth-child(7){
+        display: none;
+    }
+
+    .menu-right i{
+        display: none;
+    }
+}
+
+@media(max-width:650px){
+    .menu-right a:nth-child(6){
+        display: none;
+    }
+}
+
+@media(max-width:610px){
+    .menu-right a:nth-child(5){
+        display: none;
+    }
+}
+
+@media(max-width:530px){
+    .menu-right a:nth-child(4){
+        display: none;
+    }
+}
+
+@media(max-width:390px){
+    .menu-right a:nth-child(3){
+        display: none;
+    }
+}
